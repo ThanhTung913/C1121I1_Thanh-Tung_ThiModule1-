@@ -12,8 +12,8 @@ class Animal{
         }
        
         setName(name){
-            this.name = name;}
-
+            this.name = name;
+        }
         setWeight(weight){
             this.weight = weight;
         }
@@ -25,8 +25,9 @@ class Animal{
     let objAnimal1 = new Animal('Elephant', 45.6);
     console.log(objAnimal1.toString());
 
-    let objAnimal2 = new Animal('Mouse', 12);
-    console.log(objAnimal2.toString());
+    let objAnimal2 = new Animal('Cat', 12);
+    objAnimal2.setName('Mouse');
+    console.log(objAnimal2.name)
     
     
 

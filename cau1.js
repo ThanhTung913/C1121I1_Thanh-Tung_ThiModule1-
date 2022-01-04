@@ -7,4 +7,4 @@ function GPT(a,b){
     } else {
         return 'phương trình vô số nghiệm'
     }
-} console.log(GPT(5, 8));
+} console.log(GPT(1, 1));

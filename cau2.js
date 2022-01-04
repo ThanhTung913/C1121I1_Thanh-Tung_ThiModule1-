@@ -4,8 +4,8 @@ function cau2(a, arr){
         if (arr[i] == a )  {
             return true
         }
-        return false
     }
+    return false
 }
-console.log(cau2(11,arr))
+console.log(cau2(4,arr))
 
